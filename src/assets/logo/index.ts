@@ -135,8 +135,10 @@ import WHATSAPP from '@/assets/logo/whatsapp.svg';
 import WORD1 from '@/assets/logo/word-1.svg';
 import ZHIDEMAI from '@/assets/logo/zhidemai.svg';
 import ZHUANJIA from '@/assets/logo/zhuanjia.svg';
+import ZHUANJIA2 from '@/assets/logo/zhuanjia2.svg';
 
 export {
+  ZHUANJIA2,
   APPLE,
   ART,
   ALIEXPRESS,
