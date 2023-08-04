@@ -1,5 +1,6 @@
 import React, { FC, useState, useEffect, useCallback } from 'react';
 import VirtualList from 'rc-virtual-list';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { IPictureList } from '../types';
 import { Spin } from 'antd';
 import styled from '@emotion/styled';
@@ -49,9 +50,12 @@ const PictureList: FC<IPictureList> = ({
                 height={height}
             >
                 {
-                    (item) => (
-                        <div key={item.label} className='w-48 h-48 p-4 flex justify-center items-center'>
-                            <img className='object-contain' src={item.value} alt={item.label} />
+                    (image) => (
+                        <div key={image.label} className='w-48 h-48 p-4 flex justify-center items-center'>
+                            <LazyLoadImage
+                                alt={image.label}
+                                src={image.value}
+                            />
                         </div>
                     )
                 }
