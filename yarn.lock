@@ -4448,6 +4448,16 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
+viewerjs-react@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npmmirror.com/viewerjs-react/-/viewerjs-react-1.0.2.tgz#7db477b0b0142c38e0a6131a3b673e4b9e777ad9"
+  integrity sha512-RrgINgmIfMyW+4rue9DwJsaq3mc7Ajg5tbE75dSRCqJ15lf+ofo12+g+3DqYwb2jBgbM9pmZ2uPz1LNUpgZkng==
+
+viewerjs@^1.11.4:
+  version "1.11.4"
+  resolved "https://registry.npmmirror.com/viewerjs/-/viewerjs-1.11.4.tgz#3f8f10ca14f72d2ad16249ee239ebfa1ed3e736f"
+  integrity sha512-/mnqMIwt5Bi9j59+48OqQtqgOx8oh186Xshdr/dqqBrakMSMlLt/jmeNHBod0PvOkesZf66ivQbWmtWYBlKetg==
+
 vite-plugin-cdn-import@^0.3.5:
   version "0.3.5"
   resolved "https://registry.npmmirror.com/vite-plugin-cdn-import/-/vite-plugin-cdn-import-0.3.5.tgz#b9cfbb076fd2bc1e8ae666e65450a864972dee81"
